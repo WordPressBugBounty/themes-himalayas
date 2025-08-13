@@ -55,8 +55,11 @@ If you want to translate this theme to your language, refer to: https://translat
 /**********************************************************/
 
 == Changelog ==
+= Version 1.3.5 - 2025-08-12 =
+* Update    - General security measure.
+
 = Version 1.3.4 - 2025-07-08 =
-* Update - One page menu issue.
+* Fix - One page menu issue.
 
 = Version 1.3.3 - 2025-06-17 =
 * Update - Font awesome update to 6.7.2.
