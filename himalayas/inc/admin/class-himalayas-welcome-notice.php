@@ -56,7 +56,7 @@ class Himalayas_Welcome_Notice {
 						printf(
 							/* translators: 1: welcome page link starting html tag, 2: welcome page link ending html tag. */
 							esc_html__( 'Welcome! Thank you for choosing Himalayas! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s.', 'himalayas' ),
-							'<a href="' . esc_url( admin_url( 'themes.php?page=himalayas-welcome' ) ) . '">',
+							'<a href="' . esc_url( admin_url( 'themes.php?page=himalayas-options' ) ) . '">',
 							'</a>'
 						);
 						?>
@@ -64,7 +64,7 @@ class Himalayas_Welcome_Notice {
 
 					<div class="himalayas-message__cta">
 						<?php echo $this->import_button_html(); ?>
-						<span class="plugin-install-notice"><?php esc_html_e( 'Clicking the button will install and activate the ThemeGrill demo importer plugin.', 'himalayas' ); ?></span>
+						<span class="plugin-install-notice"><?php esc_html_e( 'Clicking the button will install and activate the Starter Templates & Sites Pack by ThemeGrill plugin.', 'himalayas' ); ?></span>
 					</div>
 				</div>
 			</div>
